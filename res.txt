@@ -1,0 +1,354 @@
+list
+Jttweitgnlpjm 9570066 557 
+Rdpagdudkd 1979279 598 
+Muphpn 5442246 585 
+Tntkwhi 8269519 558 
+Xnce 6969041 544 
+Balbfyw 8658277 233 
+Jtmqnakxx 7488570 242 
+Pirelwuifwir 9608213 394 
+Vkxjurwmfxx 2328939 539 
+Kphthlfegnk 2526463 552 
+tName
+| Muphpn 5442246 585|
+      Balbfyw 8658277 233 B
+      / 
+   Jtmqnakxx 7488570 242 R
+      \ 
+      Jttweitgnlpjm 9570066 557 B
+         \ 
+   / 
+Muphpn 5442246 585 B
+   \ 
+         / 
+      Rdpagdudkd 1979279 598 B
+      / 
+   Tntkwhi 8269519 558 R
+      \ 
+         / 
+      Xnce 6969041 544 B
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tPhone
+| Muphpn 5442246 585|
+      Rdpagdudkd 1979279 598 R
+      / 
+   Vkxjurwmfxx 2328939 539 B
+      \ 
+      Kphthlfegnk 2526463 552 R
+   / 
+Muphpn 5442246 585 B
+   \ 
+      Xnce 6969041 544 B
+         \ 
+      / 
+   Tntkwhi 8269519 558 R
+      \ 
+         / 
+      Jttweitgnlpjm 9570066 557 B
+         \ 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+hashTable
+key = 33
+Balbfyw 8658277 233 
+--------------------
+key = 39
+Vkxjurwmfxx 2328939 539 
+--------------------
+key = 42
+Jtmqnakxx 7488570 242 
+--------------------
+key = 44
+Xnce 6969041 544 
+--------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#1
+SELECT    NONE    NONE    EQ      OP_NONE  (null)   0     208
+0 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#2
+SELECT    NONE    NONE    EQ      OP_NONE  (null)   0     209
+0 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#3
+INSERT    NONE    NONE    NONE    OP_NONE  Student   1234567     208
+Student 1234567 208 was inserted
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#4
+INSERT    NONE    NONE    NONE    OP_NONE  Student   7654321     208
+Student 7654321 208 was inserted
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#5
+INSERT    NONE    NONE    NONE    OP_NONE  Student   1234567     209
+Student 1234567 209 was inserted
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#6
+INSERT    NONE    NONE    NONE    OP_NONE  Student   7654321     209
+Student 7654321 209 was inserted
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#7
+SELECT    EQ      NONE    NONE    OP_NONE  Student   0     0
+Student 1234567 208 
+Student 7654321 209 
+Student 1234567 209 
+Student 7654321 208 
+4 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#8
+SELECT    NONE    EQ      NONE    OP_NONE  (null)   1234567     0
+Student 1234567 208 
+Student 1234567 209 
+2 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#9
+SELECT    NONE    EQ      NONE    OP_NONE  (null)   7654321     0
+Student 7654321 208 
+Student 7654321 209 
+2 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#10
+DELETE    EQ      NONE    NONE    OP_NONE  Student   0     0
+4 elements was deleted
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#11
+SELECT    EQ      NONE    NONE    OP_NONE  Student   0     0
+0 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#12
+SELECT    NONE    EQ      NONE    OP_NONE  (null)   1234567     0
+0 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#13
+SELECT    NONE    EQ      NONE    OP_NONE  (null)   7654321     0
+0 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#14
+INSERT    NONE    NONE    NONE    OP_NONE  Student   1234567     208
+Student 1234567 208 was inserted
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#15
+INSERT    NONE    NONE    NONE    OP_NONE  Student   7654321     208
+Student 7654321 208 was inserted
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#16
+INSERT    NONE    NONE    NONE    OP_NONE  Student   1234567     209
+Student 1234567 209 was inserted
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#17
+INSERT    NONE    NONE    NONE    OP_NONE  Student   7654321     209
+Student 7654321 209 was inserted
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#18
+SELECT    EQ      NONE    NONE    OP_NONE  Student   0     0
+Student 1234567 208 
+Student 7654321 209 
+Student 1234567 209 
+Student 7654321 208 
+4 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#19
+SELECT    NONE    EQ      NONE    OP_NONE  (null)   1234567     0
+Student 1234567 208 
+Student 1234567 209 
+2 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#20
+SELECT    NONE    EQ      NONE    OP_NONE  (null)   7654321     0
+Student 7654321 208 
+Student 7654321 209 
+2 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#21
+DELETE    NONE    EQ      NONE    OP_NONE  (null)   1234567     0
+2 elements was deleted
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#22
+DELETE    NONE    EQ      NONE    OP_NONE  (null)   7654321     0
+2 elements was deleted
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#23
+SELECT    EQ      NONE    NONE    OP_NONE  Student   0     0
+0 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#24
+SELECT    NONE    EQ      NONE    OP_NONE  (null)   1234567     0
+0 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#25
+SELECT    NONE    EQ      NONE    OP_NONE  (null)   7654321     0
+0 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#26
+INSERT    NONE    NONE    NONE    OP_NONE  Student   1234567     208
+Student 1234567 208 was inserted
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#27
+INSERT    NONE    NONE    NONE    OP_NONE  Student   7654321     208
+Student 7654321 208 was inserted
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#28
+INSERT    NONE    NONE    NONE    OP_NONE  Student   1234567     209
+Student 1234567 209 was inserted
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#29
+INSERT    NONE    NONE    NONE    OP_NONE  Student   7654321     209
+Student 7654321 209 was inserted
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#30
+SELECT    EQ      NONE    NONE    OP_NONE  Student   0     0
+Student 1234567 208 
+Student 7654321 209 
+Student 1234567 209 
+Student 7654321 208 
+4 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#31
+SELECT    NONE    EQ      NONE    OP_NONE  (null)   1234567     0
+Student 1234567 208 
+Student 1234567 209 
+2 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#32
+SELECT    NONE    EQ      NONE    OP_NONE  (null)   7654321     0
+Student 7654321 208 
+Student 7654321 209 
+2 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#33
+DELETE    NONE    NONE    EQ      OP_NONE  (null)   0     208
+2 elements was deleted
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#34
+DELETE    NONE    NONE    EQ      OP_NONE  (null)   0     209
+2 elements was deleted
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#35
+SELECT    EQ      NONE    NONE    OP_NONE  Student   0     0
+0 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#36
+SELECT    NONE    EQ      NONE    OP_NONE  (null)   1234567     0
+0 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#37
+SELECT    NONE    EQ      NONE    OP_NONE  (null)   7654321     0
+0 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#38
+SELECT    NONE    NONE    EQ      OP_NONE  (null)   0     208
+0 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#39
+SELECT    NONE    NONE    EQ      OP_NONE  (null)   0     209
+0 elements was selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#40
+QUIT      NONE    NONE    NONE    OP_NONE  (null)   0     0
+Goodbye!
+list
+Jttweitgnlpjm 9570066 557 
+Rdpagdudkd 1979279 598 
+Muphpn 5442246 585 
+Tntkwhi 8269519 558 
+Xnce 6969041 544 
+Balbfyw 8658277 233 
+Jtmqnakxx 7488570 242 
+Pirelwuifwir 9608213 394 
+Vkxjurwmfxx 2328939 539 
+Kphthlfegnk 2526463 552 
+tName
+| Muphpn 5442246 585|
+      Balbfyw 8658277 233 B
+      / 
+   Jtmqnakxx 7488570 242 R
+      \ 
+      Jttweitgnlpjm 9570066 557 B
+         \ 
+   / 
+Muphpn 5442246 585 B
+   \ 
+         / 
+      Rdpagdudkd 1979279 598 B
+      / 
+   Tntkwhi 8269519 558 R
+      \ 
+         / 
+      Xnce 6969041 544 B
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tPhone
+| Muphpn 5442246 585|
+      Rdpagdudkd 1979279 598 B
+      / 
+   Vkxjurwmfxx 2328939 539 R
+      \ 
+      Kphthlfegnk 2526463 552 B
+   / 
+Muphpn 5442246 585 B
+   \ 
+         / 
+      Jtmqnakxx 7488570 242 B
+      / 
+   Tntkwhi 8269519 558 R
+      \ 
+         / 
+      Jttweitgnlpjm 9570066 557 B
+         \ 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+hashTable
+key = 33
+Balbfyw 8658277 233 
+--------------------
+key = 39
+Vkxjurwmfxx 2328939 539 
+--------------------
+key = 42
+Jtmqnakxx 7488570 242 
+--------------------
+key = 44
+Xnce 6969041 544 
+--------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
